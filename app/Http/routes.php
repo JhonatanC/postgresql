@@ -14,3 +14,11 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('datos','DateController@getBranch');
+
+
+/*Route::get('users', [
+    'as' => 'getUsers',
+    'uses' => 'UserController@getUsers'
+]);*/
