@@ -16,7 +16,8 @@ class CreateCitiesTable extends Migration
             //$table->engine = 'InnoDB';
             $table->increments('id');
             $table->string('name_city');
-            $table->integer('country_id');
+            $table->integer('country_id')->nullable()->unsigned();
+            $table->foreign('country_id')->references('id')->on('countries')->onDelete('cascade');
             $table->timestamps();
         });
     }

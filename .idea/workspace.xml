@@ -25,21 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Country.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Country.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Master/Entities/Country.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.29577464" vertical-offset="0" max-vertical-offset="710">
+            <state vertical-scroll-proportion="-7.0" vertical-offset="0" max-vertical-offset="651">
               <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Cities.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Master/Entities/Cities.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.8" vertical-offset="0" max-vertical-offset="525">
-              <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -55,11 +45,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2015_09_16_190830_create_cities_table.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="2015_09_16_190830_create_cities_table.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/database/migrations/2015_09_16_190830_create_cities_table.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.666667" vertical-offset="67" max-vertical-offset="798">
-              <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+            <state vertical-scroll-proportion="0.7338028" vertical-offset="4" max-vertical-offset="819">
+              <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ModelFactory.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database/factories/ModelFactory.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-14.7" vertical-offset="0" max-vertical-offset="735">
+              <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -110,14 +110,14 @@
         <option value="$PROJECT_DIR$/database/migrations/2015_09_16_190852_create_branches_table.php" />
         <option value="$PROJECT_DIR$/database/seeds/CountrySeeder.php" />
         <option value="$PROJECT_DIR$/database/seeds/CitySeeder.php" />
-        <option value="$PROJECT_DIR$/database/factories/ModelFactory.php" />
         <option value="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2015_09_16_190744_create_countries_table.php" />
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/DateController.php" />
         <option value="$PROJECT_DIR$/database/seeds/UserTableSeeder.php" />
         <option value="$PROJECT_DIR$/app/Master/Entities/Cities.php" />
         <option value="$PROJECT_DIR$/app/Master/Entities/Country.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2015_09_16_190744_create_countries_table.php" />
+        <option value="$PROJECT_DIR$/database/factories/ModelFactory.php" />
         <option value="$PROJECT_DIR$/database/migrations/2015_09_16_190830_create_cities_table.php" />
       </list>
     </option>
@@ -836,34 +836,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/factories/ModelFactory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.828169" vertical-offset="0" max-vertical-offset="735">
-          <caret line="37" column="6" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Master/Entities/Branch.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.35492957" vertical-offset="0" max-vertical-offset="710">
           <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2015_09_16_190744_create_countries_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.2" vertical-offset="0" max-vertical-offset="756">
-          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2015_09_16_190830_create_cities_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.666667" vertical-offset="67" max-vertical-offset="798">
-          <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
           <folding />
         </state>
       </provider>
@@ -878,8 +854,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Master/Entities/Country.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29577464" vertical-offset="0" max-vertical-offset="710">
+        <state vertical-scroll-proportion="-7.0" vertical-offset="0" max-vertical-offset="651">
           <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/factories/ModelFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.7" vertical-offset="0" max-vertical-offset="735">
+          <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2015_09_16_190744_create_countries_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.2" vertical-offset="0" max-vertical-offset="756">
+          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2015_09_16_190830_create_cities_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7338028" vertical-offset="4" max-vertical-offset="819">
+          <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
           <folding />
         </state>
       </provider>
