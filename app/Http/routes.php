@@ -17,6 +17,8 @@ Route::get('/', function () {
 
 Route::get('datos','DateController@getBranch');
 
+Route::get('rel','DateController@rel');
+
 
 /*Route::get('users', [
     'as' => 'getUsers',

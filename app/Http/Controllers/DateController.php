@@ -7,7 +7,9 @@ use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
-use App\Casino\Repositories\BranchRepo;
+use App\Master\Repositories\BranchRepo;
+
+use App\Master\Entities\Cities;
 
 class DateController extends Controller
 {
@@ -24,5 +26,10 @@ class DateController extends Controller
         //dd($branch);
         //return $branch;
         return view('datos', compact('branch'));
+    }
+
+    function rel()
+    {
+
     }
 }

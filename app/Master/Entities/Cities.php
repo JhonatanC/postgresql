@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Casino\Entities;
+namespace App\Master\Entities;
 
 use Illuminate\Database\Eloquent\Model;
 
@@ -10,6 +10,10 @@ class Cities extends Model
 
     protected $fillable = [
         'name_city',
-        'id_country'
     ];
+
+    public function country()
+    {
+        return $this->belongsTo('App\Master\Entities\Country');
+    }
 }

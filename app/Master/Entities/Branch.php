@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Casino\Entities;
+namespace App\Master\Entities;
 
 use Illuminate\Database\Eloquent\Model;
 
